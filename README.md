@@ -60,6 +60,6 @@ on the pull + serve pattern we've shown here.
 
 ## License
 
-MIT OR Apache-2.0
+Apache-2.0 with LLVM Exception
 
 [cargo-component]: https://github.com/bytecodealliance/cargo-component
