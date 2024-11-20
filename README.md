@@ -1,4 +1,4 @@
-# Rust WASI Hello
+# WASI Rust Sample
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/yoshuawuyts/rust-wasi-hello)
 
