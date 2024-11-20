@@ -15,4 +15,4 @@ proxy = true
 
 [dependencies]
 wasi = "0.13.2"
-wit-bindgen-rt = { version = "0.30.0", features = ["bitflags"] }
+wit-bindgen-rt = { version = "0.35.0", features = ["bitflags"] }
