@@ -58,6 +58,11 @@ on the pull + serve pattern we've shown here.
 - [ ] Add deploy remote artifact
 - [ ] Show wkg pull and run locally
 
+## See Also
+
+**Hosts**
+- [sample-wasi-http-aks-wasmcloud](https://github.com/yoshuawuyts/sample-wasi-aks-wasmcloud) - A `wasi:http` example host environment running on AKS using the WasmCloud runtime
+
 ## License
 
 Apache-2.0 with LLVM Exception
