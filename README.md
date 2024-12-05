@@ -61,7 +61,7 @@ on the pull + serve pattern we've shown here.
 ## See Also
 
 **Hosts**
-- [sample-wasi-http-aks-wasmcloud](https://github.com/yoshuawuyts/sample-wasi-aks-wasmcloud) - A `wasi:http` example host environment running on AKS using the WasmCloud runtime
+- [sample-wasi-http-aks-wasmcloud](https://github.com/yoshuawuyts/sample-wasi-http-aks-wasmcloud) - A `wasi:http` example host environment running on AKS using the WasmCloud runtime
 
 ## License
 
