@@ -1,0 +1,27 @@
+name: build-attested-component
+
+on:
+  push:
+    branches: [cosign]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      packages: write
+      contents: read
+      attestations: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Attest
+        uses: actions/attest@v1
+        id: attest
+        with:
+          subject-name: ghcr.io/yoshuawuyts/rust-wasi-hello:0.1.0
+          # subject-digest: ${{ steps.push.outputs.digest }}
+          subject-digest: sha256:67940472ac167f1c79224ee645ba59ca54483d95c633f9e67a4d16719d1fa356
+          predicate-type: "https://in-toto.io/attestation/release/v0.1"
+          predicate: '{"purl":"pkg:oci/..."}'
+          push-to-registry: true
